@@ -1,0 +1,86 @@
+body{
+    background-image:url("./images/moviebg.png");
+    padding:0; 
+    margin:0;
+}
+
+html,body{
+    font-family:Arial;
+    font-size:12pt;
+}
+
+#title {
+	background-image:url("./images/rancidbannerbg.png");
+	height: 50px;
+	background-repeat: repeat;
+	width: 100%;
+    text-align:center;
+}
+
+h1{
+    font-family:Georgia;
+    font-weight:bold;
+    font-size:24pt;text-shadow:
+    3px 3px#999999;
+    text-align:center;}
+
+.outer{
+    width:55%;
+    flex-flow:column;
+    margin:auto; 
+    background-color:#EEEEEE;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;padding:0;
+}
+
+.container{ 
+    display:flex;  
+}
+
+
+.inner-col-1{
+    flex:3;
+    display:flex;
+    flex-flow:column;
+}
+.inner-col-2{
+    flex:1;
+    display:flex;
+    flex-flow:column;
+    background-color:#A2B964;
+}
+
+
+
+.top{ background-image:url("./images/rottenlargebg.png");
+      height:83px;
+      background-repeat:repeat;
+      
+     }
+.top img{
+    vertical-align:bottom;
+}
+.review{padding-left: 2%;}
+
+
+.percentage{padding-left:1rem;font-size:48pt;font-weight:bold;color:red;}
+
+.quote{font-size:13pt;font-family:Georgia;}
+
+.content{float: left;width:90%;margin: 1em 1em 1em 1em;}
+
+.comment{border:2px solid #CCCCCC;
+    background-color:#FFFFFF;overflow:hidden;border-radius:12px;}
+
+.comment img{float:left; margin:5px;}
+
+.people{font-size:13pt;}
+.people img{float:left; margin-right:5px;margin-top:2px;}
+.famous{font-style:italic;}
+.star{font-weight:bold;margin-top:15px;}
+
+dl,dd{font-weight:bold;}
+dt{font-weight:bold;margin-top:15px;margin-left:10px;}
+#footer{text-align:center;background-color:#A2B964;}
+#w3c{float:right;}
+

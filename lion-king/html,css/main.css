@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+#backGround{
+    background-image: url('./img/moviebg.png');
+    background-size: cover;
+}
+
+div#bgBanner{
+    background-image: url('./img/rancidbannerbg.png');
+    height: 50px;
+}
+.fBanner{
+    background-image: url('./img/rancidbanner.png');
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.letter{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+div#container{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    
+}
+#content{
+    display : flex;
+    margin: auto;
+}
+article.leftBg{
+    background-color: gray;
+    height: 1000px;
+    border-right: 1px solid black;
+    position: relative;
+    width: 700px;
+}
+div.leftTop{
+    background-image :url('./img/rottenlargebg.png');
+    height: 85px;
+    position: relative;
+}
+div.tomoto{
+    background-image: url('./img/freshlarge.png');
+    height: 90px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+div.number{
+    color:red;
+    font-size: 80px;
+    left: 100px;
+    bottom: 10px;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+nav.rightBg{
+    background-color: green;
+    height: 1000px;
+    width: 250px;
+}
+div.rightTop{
+    background-image : url('./img/cover.jpg');
+    height: 600px;
+    width : cover;
+    background-repeat: no-repeat;
+}
+
+div.bottomNum{
+    background-color: green;
+    height: 30px;
+    width : 950px;
+    margin: auto;
+    flex-direction: column;
+}

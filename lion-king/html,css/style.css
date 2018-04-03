@@ -1,0 +1,14 @@
+#title {
+	background-image:url("./images/rancidbannerbg.png");
+	height: 50px;
+	background-repeat: repeat;
+	width: 100%;
+    text-align:center;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#hah{
+	font-size: 100px;
+}
